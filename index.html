@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Report Card Semester 2025-2026</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="bg-glow"></div>
+
+<div class="container">
+
+    <!-- ENVELOPE -->
+    <div class="envelope-wrapper" id="envelope">
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="body">💌</div>
+        </div>
+        <p>Click to Open Your Letter</p>
+    </div>
+
+    <!-- MAIN LETTER CARD -->
+    <div class="letter" id="letter">
+
+        <h1 class="title">Happy Birthday Ate Trisha ❤️</h1>
+
+        <!-- ANDREW LETTER -->
+        <section class="letter-section active-letter" id="andrewLetter">
+            <h2>From Andrew ❤️</h2>
+
+            <p id="message"></p>
+
+            <div class="slideshow">
+                <img id="slide" src="images/photo1.jpg" alt="Birthday memory photo">
+                <div id="caption">To the person who has been there through it all ❤️</div>
+            </div>
+
+            <button id="nextLetter">📖 Read Adrian's Letter</button>
+        </section>
+
+        <!-- ADRIAN LETTER -->
+<section class="letter-section brother-letter" id="brotherLetter">
+    <h2>From Adrian ❤️</h2>
+
+    <p>
+Happy Birthday, Ate Trisha! 🎉🥳
+
+I just want to say thank you for always being there for us and for supporting us in whatever we want to become in the future. I’m so grateful to have you not only as my sister, but also as my role model.
+
+You always do everything you can to guide us, teach us valuable life lessons, and give us advice about our future careers. You always give us your best, and I truly appreciate everything you do for us.
+
+It’s such a blessing to have someone like you in my life someone I can talk to, trust, and be friends with at the same time.
+
+Thank you for all the places you’ve taken us, all the gala nights, and all the meals we’ve shared together. I got to experience so many fun and memorable moments because of you. You always make sure that us kambal feel loved and included, and I’ll never forget that.
+
+Please don’t stress yourself too much with work, Ate. Remember to take a break and enjoy life sometimes too, hehe. You deserve all the happiness and success in the world.
+
+Again, happiest birthday to my prettiest sister a diva, an icon, and the most amazing Ate. 💅
+
+I love you, Ate! Enjoy your special day! 🎂
+
+Love,
+Adrian ❤️
+    </p>
+
+    <button id="backToAndrew">⬅ Back to Andrew's Letter</button>
+
+    <!-- BIRTHDAY CAKE -->
+    <div class="cake-section" id="cakeSection">
+        <h2>Make a Birthday Wish 🎂</h2>
+
+        <div class="cake">
+            <div class="candles" id="candles">🕯️🕯️🕯️</div>
+            <div class="cake-body">🎂</div>
+        </div>
+
+        <button id="blowCandles">🕯️ Blow the Candles</button>
+    </div>
+
+    <button id="celebrate">✨ Final Surprise</button>
+</section>
+
+        <!-- FINAL MESSAGE -->
+        <div id="finalMessage" class="final-message">
+            <h2>One Last Message ❤️</h2>
+            <p>
+May all your wishes come true.
+
+Thank you for being our sister, our supporter, and someone we can always look up to.
+
+I hope this birthday reminds you how loved and appreciated you are.
+
+Happy Birthday, Ate Trisha. We love you always. ❤️
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<audio id="music" src="music/Daniel Caesar - Emily’s Song (Official Lyric Video) [yt0ShnhKDQE] (mp3cut.net).mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
